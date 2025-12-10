@@ -56,27 +56,7 @@ One patient → many medications
 40 medication rows
 
 Designed to reflect realistic patterns in healthcare.
-# Project Structure:
-data/
-    create_tables.sql      → all table creation scripts
-    insert_data.sql         → sample dataset inserts
 
-queries/
-
-    01_avg_length_of_stay.sql
-    02_top_diagnoses.sql
-    03_readmission_rate.sql
-    04_department_load.sql
-    05_doctor_performance.sql
-    06_high_risk_patients.sql
-    07_avg_out_of_pocket.sql
-    08_costly_diagnoses.sql
-    09_medication_usage.sql
-    10_monthly_trend.sql
-
-insights/
-
-    business_insights.md    → interpretation of results
 #   Key SQL Analysis:
 1. Average Length of Stay (ALOS):
 
