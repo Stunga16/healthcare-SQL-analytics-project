@@ -1,0 +1,45 @@
+CREATE TABLE patients (
+    patient_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    gender CHAR(1),
+    age INT
+);
+
+CREATE TABLE admissions (
+    admission_id INT PRIMARY KEY,
+    patient_id INT,
+    admit_date DATE,
+    discharge_date DATE,
+    department VARCHAR(50),
+    diagnosis VARCHAR(100),
+    doctor_id INT,
+    readmitted_within_30_days VARCHAR(3),
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id)
+);
+
+CREATE TABLE doctors (
+    doctor_id INT PRIMARY KEY,
+    doctor_name VARCHAR(100),
+    specialty VARCHAR(50)
+);
+
+CREATE TABLE medications (
+    med_id INT PRIMARY KEY,
+    patient_id INT,
+    medicine VARCHAR(100),
+    dosage VARCHAR(20),
+    start_date DATE,
+    end_date DATE,
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id)
+);
+
+CREATE TABLE billing (
+    bill_id INT PRIMARY KEY,
+    patient_id INT,
+    admission_id INT,
+    total_cost DECIMAL(10,2),
+    insurance_covered DECIMAL(10,2),
+    out_of_pocket DECIMAL(10,2),
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    FOREIGN KEY (admission_id) REFERENCES admissions(admission_id)
+);
