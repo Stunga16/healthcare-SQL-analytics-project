@@ -92,7 +92,7 @@ Most prescribed drugs.
 
 Seasonal or pattern analysis.
 
-# 🔨 Tools Used:
+# Tools Used:
 
 SQL (PostgreSQL)
 
@@ -102,7 +102,7 @@ Database Design
 
 Data Analysis
 
-# 📈 Business Value:
+# Business Value:
 
 This project mimics real hospital data scenarios and shows SQL skills in:
 
@@ -116,15 +116,7 @@ Patient outcome analysis
 
 KPI reporting
 
-# 👩‍💻 About Me
-
-Sucharita Tunga — Data Scientist with 5+ years of experience in analytics & data modeling.
-
-Permanent Resident, Canada.
-
-
-
-# 📌 Business Insights Summary
+# Business Insights Summary
 1. Readmission Rate
 
 High-risk patients often return within 30 days → need better follow-up care & medication adherence programs.
@@ -144,4 +136,10 @@ Some doctors show higher readmission trends → indicates need for quality of ca
 5. Medication Patterns
 
 Metformin, Aspirin & Antibiotics are most prescribed → aligns with chronic illness trends.
+
+# 👩‍💻 About Me
+
+Sucharita Tunga — Data Scientist with 5+ years of experience in analytics & data modeling.
+
+Permanent Resident, Canada.
 
