@@ -1,0 +1,7 @@
+# Medication Usage Analysis
+SELECT 
+    medicine,
+    COUNT(*) AS times_prescribed
+FROM medications
+GROUP BY medicine
+ORDER BY times_prescribed DESC;
