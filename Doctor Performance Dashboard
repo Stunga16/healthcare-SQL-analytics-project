@@ -10,41 +10,4 @@ FROM admissions a
 JOIN doctors d ON a.doctor_id = d.doctor_id
 GROUP BY d.doctor_name, d.specialty
 ORDER BY patients_treated DESC;
-# High-Risk Patients (Multiple admissions + readmissions)
-SELECT 
-    p.patient_id,
-    p.name,
-    COUNT(a.admission_id) AS total_visits,
-    SUM(CASE WHEN a.readmitted_within_30_days THEN 1 ELSE 0 END) AS readmissions
-FROM patients p
-JOIN admissions a ON p.patient_id = a.patient_id
-GROUP BY p.patient_id, p.name
-HAVING COUNT(a.admission_id) >= 2
-ORDER BY readmissions DESC;
-# Financial Insights — Average Out-of-Pocket Cost
-SELECT 
-    ROUND(AVG(out_of_pocket), 2) AS avg_out_of_pocket_cost
-FROM billing;
 
-#Which Diagnoses Are Most Expensive?
-SELECT 
-    a.diagnosis,
-    ROUND(AVG(b.total_cost), 2) AS avg_cost
-FROM admissions a
-JOIN billing b ON a.admission_id = b.admission_id
-GROUP BY a.diagnosis
-ORDER BY avg_cost DESC;
-# Medication Usage Analysis
-SELECT 
-    medicine,
-    COUNT(*) AS times_prescribed
-FROM medications
-GROUP BY medicine
-ORDER BY times_prescribed DESC;
-# Trend: Monthly Admissions Count
-SELECT 
-    TO_CHAR(admit_date, 'YYYY-MM') AS month,
-    COUNT(*) AS total_admissions
-FROM admissions
-GROUP BY 1
-ORDER BY 1;
