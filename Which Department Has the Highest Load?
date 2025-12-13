@@ -1,0 +1,10 @@
+# Which Department Has the Highest Load?
+
+SELECT 
+    department,
+    COUNT(*) AS total_admissions
+FROM admissions
+GROUP BY department
+ORDER BY total_admissions DESC;
+
+
