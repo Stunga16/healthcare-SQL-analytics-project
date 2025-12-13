@@ -1,5 +1,5 @@
-# Hospital KPI: 
-## Top 10 Most Common Diagnoses
+# Top 10 Most Common Diagnoses
+
 SELECT 
     diagnosis,
     COUNT(*) AS total_cases
