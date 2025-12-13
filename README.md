@@ -54,16 +54,16 @@ One patient → many medications
 
 Designed to reflect realistic patterns in healthcare.
 
-#   Key SQL Analysis:
-1. Average Length of Stay (ALOS) [find SQL query](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Average%20Length%20of%20Stay%20(ALOS)) 
+#   Key Analysis:
+1. Average Length of Stay (ALOS) [find SQL queries](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Average%20Length%20of%20Stay%20(ALOS)) 
 
 Helps hospitals reduce bed occupancy & optimize operations.
 
-2. Most Common Diagnoses:
+2. Most Common Diagnoses: [find SQL queries](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Top%2010%20Most%20Common%20Diagnoses)
 
 Finds top diseases increasing hospital load.
 
-3. 30-Day Readmission Rate:
+3. 30-Day Readmission Rate:[find SQL queries](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Monthly%20Admissions%20Count)
 
 Critical KPI in Canadian healthcare systems.
 
