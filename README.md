@@ -3,7 +3,7 @@
 
 A real-world analytics project for hospitals & healthcare decision-making.
 # Project Overview:
-## The goal of this project is to investigate
+## The goal of this project:
 1. Reducing patient readmissions
 
 2. Improving department efficiency
@@ -20,7 +20,7 @@ A real-world analytics project for hospitals & healthcare decision-making.
 
 All analysis is performed using PostgreSQL, a widely-used database system in Canadian healthcare & tech companies.
 
-# 📊Database Schema (ERD Structure):
+# Database Schema (ERD Structure):
 Tables:
 
 1. patients (patient details)
