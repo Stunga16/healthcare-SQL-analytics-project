@@ -1,0 +1,7 @@
+# Trend: Monthly Admissions Count
+SELECT 
+    TO_CHAR(admit_date, 'YYYY-MM') AS month,
+    COUNT(*) AS total_admissions
+FROM admissions
+GROUP BY 1
+ORDER BY 1;
