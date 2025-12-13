@@ -1,0 +1,5 @@
+# Financial Insights — Average Out-of-Pocket Cost
+SELECT 
+    ROUND(AVG(out_of_pocket), 2) AS avg_out_of_pocket_cost
+FROM billing;
+
