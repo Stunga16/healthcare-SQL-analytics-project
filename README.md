@@ -60,6 +60,27 @@ Most prescribed drugs.
 9. Monthly Admission Trend:[SQL](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Monthly%20Admissions%20Count)
 
 Seasonal or pattern analysis.
+# Business Insights Summary
+1. Readmission Rate
+
+High-risk patients often return within 30 days → need better follow-up care & medication adherence programs.
+
+2. Department Workload
+
+Cardiology & Neurology show highest admission counts → indicating priority areas for staffing & budget allocation.
+
+3. Cost Insights
+
+Average out-of-pocket cost is significantly lower than total cost → strong insurance coverage in the dataset.
+
+4. Doctor Performance
+
+Some doctors show higher readmission trends → indicates need for quality of care review or more complex cases being handled.
+
+5. Medication Patterns
+
+Metformin, Aspirin & Antibiotics are most prescribed → aligns with chronic illness trends.
+
 
 # Tools Used:
 
@@ -85,26 +106,6 @@ Patient outcome analysis
 
 KPI reporting
 
-# Business Insights Summary
-1. Readmission Rate
-
-High-risk patients often return within 30 days → need better follow-up care & medication adherence programs.
-
-2. Department Workload
-
-Cardiology & Neurology show highest admission counts → indicating priority areas for staffing & budget allocation.
-
-3. Cost Insights
-
-Average out-of-pocket cost is significantly lower than total cost → strong insurance coverage in the dataset.
-
-4. Doctor Performance
-
-Some doctors show higher readmission trends → indicates need for quality of care review or more complex cases being handled.
-
-5. Medication Patterns
-
-Metformin, Aspirin & Antibiotics are most prescribed → aligns with chronic illness trends.
 
 # 👩‍💻 About Me
 
