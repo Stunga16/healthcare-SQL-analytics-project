@@ -24,39 +24,6 @@ MapleCare General Hospital is a mid-sized Canadian multi-specialty hospital oper
 
 <img width="736" height="468" alt="Screenshot 2025-12-13 at 10 48 34 PM" src="https://github.com/user-attachments/assets/0cb6ecef-1dad-4535-896c-72fc613b75e7" />
 
-
-1. patients (patient details)
-
-2. doctors (specialty & doctor info)
-
-3. admissions (hospital visits)
-
-4. billing (cost, insurance, out-of-pocket)
-
-5. medications (treatments prescribed)
-
-Relationships:
-
-One patient → many admissions
-
-One doctor → many admissions
-
-One admission → one billing record
-
-One patient → many medications
-# Dataset:
-20 patients
-
-10 doctors
-
-40 admissions
-
-40 billing rows
-
-40 medication rows
-
-Designed to reflect realistic patterns in healthcare.
-
 #   Key Analysis:
 1. Average Length of Stay (ALOS) [SQL](https://github.com/Stunga16/healthcare-SQL-analytics-project/blob/main/Average%20Length%20of%20Stay%20(ALOS)) 
 
