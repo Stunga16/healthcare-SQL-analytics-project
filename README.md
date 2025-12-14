@@ -85,17 +85,12 @@ Metformin, Aspirin & Antibiotics are most prescribed → aligns with chronic ill
 # Tools Used:
 
 SQL (PostgreSQL)
-
 pgAdmin
-
+Lucid
 Database Design
-
 Data Analysis
 
 # Business Value:
-
-This project mimics real hospital data scenarios and shows SQL skills in:
-
 Healthcare analytics
 
 Cost optimization
@@ -109,7 +104,7 @@ KPI reporting
 
 # 👩‍💻 About Me
 
-Sucharita Tunga — Data Scientist with 5+ years of experience in analytics & data modeling.
+Sucharita Tunga — Data Scientist with 5+ years of experience in Data analytics and Data science
 
 Permanent Resident, Canada.
 
